@@ -1,5 +1,3 @@
-Here is the updated version:
-
 # Bank Marketing Dataset Analysis 📊
 =====================================
 
@@ -100,5 +98,3 @@ The dataset and code are licensed under the [MIT License](https://opensource.org
 ------------------
 
 The dataset is from the UCI Machine Learning Repository. The analysis was performed using the scikit-learn library. 🙏
-
-## Author: Clinton Beyene
