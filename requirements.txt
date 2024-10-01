@@ -1,0 +1,11 @@
+# Data Ingestion and Preprocessing
+pandas
+numpy
+
+
+# Machine Learning and NER
+scikit-learn
+
+# Visualization 
+matplotlib
+seaborn
