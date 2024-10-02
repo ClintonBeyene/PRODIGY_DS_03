@@ -2,7 +2,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV
 
-def hyperparameter_tunining(X_train, y_train):
+def hyperparameter_tuning(X_train, y_train):
     # Define the hyperparameter space for Decision Tree classifier
     param_grid_dt = {'max_depth': [3, 5, 10, 15],'min_samples_split': [2, 5, 10]}
 
