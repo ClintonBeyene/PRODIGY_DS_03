@@ -22,4 +22,4 @@ def train_and_evaluate(X_train, y_train, X_test, y_test, best_params_dt, best_pa
     print("Decision Tree Classifier Accuracy:", accuracy_score(y_test, y_pred_dt))
     print("Random Forest Classifier Accuracy:", accuracy_score(y_test, y_pred_rf))
 
-    return clf_dt, clf_rf
+    return clf_dt, clf_rf, y_pred_dt, y_pred_rf
