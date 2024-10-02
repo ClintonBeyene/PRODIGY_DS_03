@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot  as plt
 from sklearn.decomposition import PCA
 
-def principlal_component(X_train):
+def principal_component(X_train):
     # Perform PCA on the training data 
     pca = PCA(n_components=2)
     X_train_pca = pca.fit_transform(X_train)
