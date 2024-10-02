@@ -1,10 +1,7 @@
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
-from sklearn.model_selection import GridSearchCV
-from sklearn.decomposition import PCA
-from sklearn.metrics import roc_auc_score, roc_curve
-import shap
+
 
 # Function to apply label encoding
 def label_encoding(df):
