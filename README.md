@@ -1,12 +1,12 @@
-# Bank Marketing Dataset Analysis 📊
+**Bank Marketing Dataset Analysis 📊**
 =====================================
 
-## Overview 📈
+**Overview 📈**
 ---------------
 
 This repository contains an analysis of the Bank Marketing dataset, a widely used dataset in machine learning and data science. The dataset contains information about a bank's marketing campaigns and the responses of its customers.
 
-## Dataset Description 📝
+**Dataset Description 📝**
 -------------------------
 
 The Bank Marketing dataset contains 45211 instances and 16 attributes, including:
@@ -29,7 +29,7 @@ The Bank Marketing dataset contains 45211 instances and 16 attributes, including
 * Poutcome 📊
 * Y (target variable) 📈
 
-## Analysis 📊
+**Analysis 📊**
 --------------
 
 The analysis includes the following steps:
@@ -66,7 +66,7 @@ The importance of the features is analyzed using the Random Forest model.
 
 The ROC curve is plotted to evaluate the model's performance.
 
-## Results 📊
+**Results 📊**
 --------------
 
 The results of the analysis are:
@@ -75,7 +75,7 @@ The results of the analysis are:
 * The feature importance analysis shows that the most important features are age, job, and marital status. 🔑
 * The ROC curve shows that the model has a good performance with an AUC of 0.95. 📈
 
-## Code 💻
+**Code 💻**
 ------
 
 The code is organized into the following files:
@@ -89,12 +89,12 @@ The code is organized into the following files:
 * `feature_importance.py`: Analyzes the feature importance. 🔑
 * `roc_curve.py`: Plots the ROC curve. 📈
 
-## License 📜
+**License 📜**
 ------------
 
 The dataset and code are licensed under the [MIT License](https://opensource.org/licenses/MIT). 📜
 
-## Acknowledgments 🙏
+**Acknowledgments 🙏**
 ------------------
 
 The dataset is from the UCI Machine Learning Repository. The analysis was performed using the scikit-learn library. 🙏
