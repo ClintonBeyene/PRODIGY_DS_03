@@ -20,7 +20,7 @@ def feature_enginerring(df):
                              labels=['young', 'adult', 'middle_age', 'old'])
     # Convert 'age_group' to numerical variable using LabelEncoder
     le = LabelEncoder()
-    df['age_group'] = le.fit_tranform(df['age_group'])
+    df['age_group'] = le.fit_transform(df['age_group'])
 
     # Create a new feature 'contact_duration' based on 'duration'
     df['contach_duration'] = df['duration'] / 60
