@@ -16,7 +16,7 @@ def label_encoding(df):
 # Function to apply feature engineeing 
 def feature_enginerring(df):
     # Create a new feature 'age_group' based on age
-    df['age_group'] = pd.cut(df['age'], bins=[0, 20, 40, 60], 
+    df['age_group'] = pd.cut(df['age'], bins=[0, 20, 40, 60, 80], 
                              labels=['young', 'adult', 'middle_age', 'old'])
     # Convert 'age_group' to numerical variable using LabelEncoder
     le = LabelEncoder()
