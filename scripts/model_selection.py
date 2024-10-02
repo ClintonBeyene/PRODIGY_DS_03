@@ -11,7 +11,7 @@ def model_selection(X_train, y_train):
     scores_dt = cross_val_score(dt, X_train, y_train, cv=5)
     scores_rf = cross_val_score(rf, X_train, y_train, cv=5)
 
-    print("Decision tree cross validation score:" (scores_dt).mean)
-    print("Random Forest cross validation score:" (scores_rf).mean)
+    print("Decision tree cross validation score:", (scores_dt).mean)
+    print("Random Forest cross validation score:", (scores_rf).mean)
 
     return dt, rf
