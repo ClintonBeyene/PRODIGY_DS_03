@@ -7,11 +7,15 @@ def model_selection(X_train, y_train):
     dt = DecisionTreeClassifier(random_state=42)
     rf = RandomForestClassifier(random_state=42)
 
-    # Evaluate the model using cross validation 
+    # Evaluate the model using cross-validation 
     scores_dt = cross_val_score(dt, X_train, y_train, cv=5)
     scores_rf = cross_val_score(rf, X_train, y_train, cv=5)
 
-    print("Decision tree cross validation score:" (scores_dt).mean)
-    print("Random Forest cross validation score:" (scores_rf).mean)
+    # Calculate and print the mean cross-validation scores
+    mean_score_dt = scores_dt.mean()
+    mean_score_rf = scores_rf.mean()
+
+    print("Decision Tree cross-validation score:", mean_score_dt)
+    print("Random Forest cross-validation score:", mean_score_rf)
 
     return dt, rf
